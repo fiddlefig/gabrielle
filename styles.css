@@ -1,0 +1,120 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+/*
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
+*/
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat.ttf);
+}
+@font-face {
+    font-family: "Fraunces";
+    src: url(/fonts/Fraunces.ttf);
+}
+
+/*header things*/
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30,38%,92%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 640px;
+    padding: 55px;
+    height: 470px;
+    
+    
+    
+
+}
+
+.left {
+    width: 50%;
+    
+}
+.left img {
+    max-width: 313px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.right {
+    width:50%;
+    background-color: white;
+    text-align: left;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: -1;
+    
+}
+.small-title-text {
+    letter-spacing: 5px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    
+}
+.small-p {
+    line-height: 25px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: hsl(30, 1%, 42%);
+    margin-top: -10px;
+
+}
+.prices {
+    margin-top: 20px;
+}
+.price {
+    color: #3d8168;
+    font-size: 35px;
+    padding-right: 20px;
+    font-family: 'Fraunces';
+    font-weight: bold;
+}
+.small-price {
+    font-family: 'Montserrat';
+    font-size: 13px;
+    
+}
+button {
+    background-color: #3d8168;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    font-family: 'Montserrat';
+    width: 230px;
+    color: white;
+    padding: 13px;
+    margin-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.big-text {
+    font-weight: bold;
+    font-family: 'Fraunces';
+    line-height: 1px;
+}
+.cart {
+    margin-right: 10px;
+    
+    
+
+}
